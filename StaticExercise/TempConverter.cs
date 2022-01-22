@@ -6,11 +6,6 @@ namespace StaticExercise
 {
     public static class TempConverter
     {
-        static TempConverter()
-        {
-
-        }
-
         public static double FahrenheitToCelsius(double input)
         {
             return (input - 32.0) * 5.0/9.0;
